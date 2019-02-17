@@ -1,0 +1,68 @@
+//variable example
+$malecolor: blue;
+$femalecolor: red;
+
+.male{
+  font-size: 18px;
+  color: $malecolor;
+}
+.female{
+  font-size: 18px;
+  color: $femalecolor
+}
+
+#mainbody{
+  background-color: white;
+}
+
+img{
+  width: 180px;
+  height: 300px;
+  image-orientation: from-image;
+}
+
+//nesting example
+ol{
+  ul{
+    li{
+      list-style-type: disc;
+    }
+  }
+  li{
+    list-style-type: square;
+  }
+}
+
+//inheritance example
+%orderedliststyling{
+  font-family: papyrus,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2px;
+
+}
+
+.oldestknown{
+  @extend %orderedliststyling;
+  background-color: #b86fdc;
+}
+
+.mygrandparents{
+  @extend %orderedliststyling;
+  background-color: #c284e1;
+}
+
+.parents{
+  @extend %orderedliststyling;
+  background-color: #cc98e6;
+}
+
+.designer{
+  @extend %orderedliststyling;
+  background-color: #d6adeb;
+}
+
+.children{
+  @extend %orderedliststyling;
+  background-color: #e1c1f0;
+}

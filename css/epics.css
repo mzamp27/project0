@@ -1,0 +1,21 @@
+#mainbody{
+  background-color: magenta;
+}
+
+h1{
+  color: yellow;
+}
+
+
+img{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 30px;
+  max-width: 320px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  background-color: white;
+}

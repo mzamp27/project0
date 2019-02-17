@@ -1,0 +1,55 @@
+.male {
+  font-size: 18px;
+  color: blue;
+}
+
+.female {
+  font-size: 18px;
+  color: red;
+}
+
+#mainbody {
+  background-color: white;
+}
+
+img {
+  width: 180px;
+  height: 300px;
+  image-orientation: from-image;
+}
+
+ol ul li {
+  list-style-type: disc;
+}
+ol li {
+  list-style-type: square;
+}
+
+.children, .designer, .parents, .mygrandparents, .oldestknown {
+  font-family: papyrus, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.oldestknown {
+  background-color: #b86fdc;
+}
+
+.mygrandparents {
+  background-color: #c284e1;
+}
+
+.parents {
+  background-color: #cc98e6;
+}
+
+.designer {
+  background-color: #d6adeb;
+}
+
+.children {
+  background-color: #e1c1f0;
+}
+
+/*# sourceMappingURL=familytree.css.map */
